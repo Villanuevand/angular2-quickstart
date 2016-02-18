@@ -1,2 +1,4 @@
-# angular2-quickstart
-Iniciación a Angular 2, siguiendo el "5 minutes quickstart" del sitio oficial... :rocket: :a::two:
+# Angular 2 - "5 minutes quickstart"
+Iniciación a Angular 2, siguiendo el tutorial ["5 minutes quickstart (for TypeScript)"](https://angular.io/docs/ts/latest/quickstart.html) del sitio oficial... :rocket: :a::two:
+
+
