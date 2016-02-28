@@ -11,5 +11,5 @@ Para instalar dependencias vía `npm`.
 ```
 npm start
 ```
-Se levanta el servidor `lite-server` y carga `ìndex.html` en el puerto **3000**, y se ejécuta el compilador para de typescript.
+Se levanta el servidor lite-server` y carga `ìndex.html` en el puerto **3000**, y se ejécuta el compilador para de typescript.
 
