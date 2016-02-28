@@ -2,16 +2,15 @@
   "name": "angular2-quickstart-typescript",
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack",
     "start": "webpack-dev-server"
   },
-  "repository" : {
-  	"type": "git",
-  	"url": "git+https://github.com/villanuevand/angular2-quickstart.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/villanuevand/angular2-quickstart.git"
   },
   "license": "MIT",
   "dependencies": {
-    "angular2": "2.0.0-beta.6",
+    "angular2": "2.0.0-beta.0",
     "systemjs": "0.19.20",
     "es6-promise": "^3.0.2",
     "es6-shim": "^0.33.3",
@@ -20,8 +19,7 @@
     "zone.js": "0.5.14"
   },
   "devDependencies": {
-    "concurrently": "^1.0.0",
-    "lite-server": "^2.0.1",
+    "ts-loader": "^0.8.1",
     "typescript": "^1.7.5",
     "typings": "^0.6.8",
     "webpack": "^1.12.14",
