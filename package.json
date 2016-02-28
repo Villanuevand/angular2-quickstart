@@ -2,7 +2,7 @@
   "name": "angular2-quickstart-typescript",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --progress --colors --watch --port 3000"
   },
   "repository": {
     "type": "git",
