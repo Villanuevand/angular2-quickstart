@@ -2,30 +2,12 @@
   <head>
     <title>Angular 2 QuickStart</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <!-- 1. Cargando  Librerias -->
-    <!-- Polyfills para IE requeridos, exactamente en este orden  / Ni puta idea el porque... O.o -->
-    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
-    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
-    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
-    <script src="node_modules/systemjs/dist/system.src.js"></script>
-    <script src="node_modules/rxjs/bundles/Rx.js"></script>
-    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
-    <!-- 2. Configurando SystemJS -->
-    <script>
-      System.config({
-        packages: {        
-          app: {
-            format: 'register',
-            defaultExtension: 'js'
-          }
-        }
-      });
-      System.import('app/app')
-            .then(null, console.error.bind(console));
-    </script>
   </head>
- <!-- 3. Mostando la aplicación -->
   <body>
     <mi-app>¡Cargando!...</mi-app>
+    <!-- Cargando  Librerias -->
+    <!-- Polyfills para IE requeridos, exactamente en este orden  / Ni puta idea el porque... O.o -->
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="dist/bundle.js"></script>
   </body>
 </html>
