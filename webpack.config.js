@@ -1,7 +1,5 @@
-module.export = {
-	entry: {
-    'app': './app/app.ts'
-  },
+module.exports = {
+	entry: './app/app.ts',
   output: {
     path: __dirname,
     filename: "./dist/bundle.js"
@@ -9,11 +7,9 @@ module.export = {
   resolve: {
     extensions: ['', '.ts', '.js']
   },
-
   module: {
     loaders: [
-      { test: /\.ts$/, loader: 'ts-loader' },
-    ],
-    noParse: [ path.join(__dirname, 'node_modules', 'angular2', 'bundles') ]
+      { test: /\.ts$/, loader: 'ts-loader', exclude : /node_modules/ },
+    ]
   }
 }
